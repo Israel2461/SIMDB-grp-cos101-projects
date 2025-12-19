@@ -1,6 +1,6 @@
 from languages.ebira import translate as ebira_lang
 # from languages.yoruba import translate as yoruba_lang
-# from languages.igbo import translate as igbo_lang
+from languages.igbo import translate as igbo_lang
 # from languages.hausa import translate as hausa_lang
 # from languages.calabar import translate as calabar_lang
 
@@ -21,7 +21,7 @@ while True:
         print(ebira_lang(word))
     elif choice == 2:
         word = input("Enter the word in english: ")
-        # print(igbo_lang(word))
+        print(igbo_lang(word))
     elif choice == 3:
         word = input("Enter the word in english: ")
         # print(hausa_lang(word))
