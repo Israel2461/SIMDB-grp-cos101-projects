@@ -2,7 +2,7 @@ from languages.ebira import translate as ebira_lang
 # from languages.yoruba import translate as yoruba_lang
 from languages.igbo import translate as igbo_lang
 # from languages.hausa import translate as hausa_lang
-# from languages.calabar import translate as calabar_lang
+from languages.calabar import translate as calabar_lang
 
 
 while True:
@@ -30,7 +30,7 @@ while True:
         # print(yoruba_lang(word))
     elif choice == 5:
         word = input("Enter the word in english: ")
-        # print(calabar_lang(word))
+        print(calabar_lang(word))
     elif choice == 6:
         print("Exiting...")
         break
