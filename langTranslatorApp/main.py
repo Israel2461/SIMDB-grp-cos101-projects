@@ -13,7 +13,7 @@ language = st.selectbox(
     ("Ebira","Igbo","Hausa","Yoruba","Calabar")
 )
 
-word = st.text_input("Enter ak word in english: ", placeholder="e.g water,food, money")
+word = st.text_input("Enter a word in english: ", placeholder="e.g water,food, money")
 if st.button("Translate"):
     if word.strip() == "":
         st.warning("Please enter a word!")
