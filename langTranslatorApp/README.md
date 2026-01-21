@@ -7,13 +7,13 @@ It was developed as a group project to demonstrate collaboration using Git and G
 
 How To Run the App
 1. Clone the Repository
-       git clone https://github.com/Israel2461/SIMDB-grp-cos101-projects.git
+      "git clone https://github.com/Israel2461/SIMDB-grp-cos101-projects.git"
    
 2. Navigate to the project folder
-       cd langTranslatorApp
+       "cd langTranslatorApp"
 
 3. Install Streamlit (if not installed)
-       pip install streamlit
+       "pip install streamlit"
 
 4. Run the application
-       streamlit run main.py
+       "streamlit run main.py"
